@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link type="image/ico" rel="icon" href="favicon.ico">
+    <title>Calendar</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="header">
+            <div class="wrapper">
+                <h1 class="header__title">Calendar </h1>
+                 <div class="inner__btn">
+                    <div class="select">
+                     <div class="select__arrow"></div>  
+                        <select class="select__filter" id="filter">
+                            <option value="all">All members</option>
+                            <option value="alex">Alex</option>
+                            <option value="bob">Bob</option>
+                            <option value="maria">Maria</option>
+                        </select>
+                    </div>
+                    <button class="btn header__btn">Add new event +</button>
+                 </div>
+            </div>
+        </div>
+
+        <table class="table"></table>
+    </div>
+
+    <div class="modal">
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <div class="modal__title">Are you sure you want to delete this event?</div>
+                <div class="buttons">
+                    <button class="modal__btn btn btn--no">no</button>
+                    <button class="modal__btn btn btn--yes">yes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>

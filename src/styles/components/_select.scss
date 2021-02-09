@@ -1,0 +1,60 @@
+@import './base';
+
+.select {
+    position: relative;
+}
+
+select {
+    border: none;
+    outline: none;
+}
+
+.select__filter {
+    display: block;
+    padding: 0 9px;
+    border: 0;
+    appearance: none;
+    font-size: 18px;
+    background-color: #E4F1FE;
+    color: #16405B;
+    width: 150px;
+    height: 50px;
+    border-radius: 4px;
+}
+
+.select__arrow {
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: 38%;
+    right: 10%;
+    border: medium solid transparent;
+    border-color: $darkblue rgba(255, 212, 52, 0) rgba(255, 212, 52, 0);
+    border-width: 8px;
+    margin-left: -25px;
+    pointer-events: none;
+}
+
+.select__members {
+    display: inline-block;
+    position: relative;
+}
+
+.select__title {
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    padding: 5px 17px;
+}
+
+.select__content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+        input {
+            display: none;
+        }
+
+}
