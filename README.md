@@ -1,2 +1,2 @@
-===================== calendar
+#calendar
 simple meeting planning calendar
