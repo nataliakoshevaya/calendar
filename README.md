@@ -16,10 +16,9 @@ Calendar consists of a pre-defined table with 5 days (Mon-Fri) for columns and 9
     The meeting can be successfully created if and only if the time slot for that day and time is free. And also field "Name oif the event" and "Participants" filled. Otherwise the error bar will be shown.
     ![alt text](screenshots/error.png "fill this field")\
     ![alt text](screenshots/error2.png "timeslot is already booked")\
-    After successful creation of an event, the user should be transferred back to the “Calendar” screen where new event should already be displayed. 
+    After successful creation of an event, the user transferred back to the “Calendar” screen where new event already be displayed. 
  + Delete meetings\
    User can delete meeting by clicking on button "x" in the filed with event.\
-   ![alt text](screenshots/delete-field.png "event field")
    ![alt text](screenshots/event-field.png "event field")
    ![alt text](screenshots/delete-event.png "window with delete event")
  + Change meeting day/time using drag and drop\
