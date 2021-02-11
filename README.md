@@ -20,9 +20,10 @@ Calendar consists of a pre-defined table with 5 days (Mon-Fri) for columns and 9
  + Delete meetings\
    User can delete meeting by clicking on button "x" in the filed with event.\
    ![alt text](screenshots/delete-field.png "event field")
+   ![alt text](screenshots/event-field.png "event field")
    ![alt text](screenshots/delete-event.png "window with delete event")
  + Change meeting day/time using drag and drop\
-   ![alt text](screenshots/drag-ndrop.png "drag n drop") => ![alt text](screenshots/drag-ndrop2.png "drag n drop") => ![alt text](screenshots/drag-ndrop3.png "drag n drop")
+   ![alt text](screenshots/drag-ndrop.png "drag n drop") => ![alt text](screenshots/drag-ndrop2.png "drag n drop") =>  ![alt text](screenshots/drag-ndrop3.png "drag n drop")
  
 
  
