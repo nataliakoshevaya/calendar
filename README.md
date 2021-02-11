@@ -5,10 +5,11 @@ Calendar consists of a pre-defined table with 5 days (Mon-Fri) for columns and 9
 
 ![alt text](screenshots/calendar.png "Calendar")
 
-**The programme allows to:**
- + Filter meetings for a particular team member. Button above the table
-![alt text](screenshots/filter.png "filter")
+**The programme allows to:** \
+ + Filter meetings for a particular team member. Button above the table\
+  ![alt text](screenshots/filter.png "filter") 
 
+<<<<<<< HEAD
  + Add new meetings by clicking button "Add new event+" \
  ![alt text](screenshots/addbutton.png "btn add new event") \
     This button transfer to the "Form" screen\
@@ -20,3 +21,11 @@ Calendar consists of a pre-defined table with 5 days (Mon-Fri) for columns and 9
  + Delete meetings;
  + Change meeting day/time using drag and drop;
 
+=======
+ + Create new event by clicking on the button "add new event+" 
+ 
+ + Delete meetings;
+ + Change meeting day/time using drag and drop;
+ 
+ 
+>>>>>>> 364b395a6cf9dcfa0f79b93caca10959e4e24fdb
