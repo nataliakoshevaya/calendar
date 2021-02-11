@@ -10,7 +10,7 @@ Calendar consists of a pre-defined table with 5 days (Mon-Fri) for columns and 9
   ![alt text](screenshots/filter.png "filter") 
 
  + **Add new meetings by clicking button "Add new event+"**\
-    ![alt text](screenshots/addbutton.png "add button")
+    ![alt text](screenshots/addbutton.png "add button")\
     This button transfer to the *"Form" screen*\
     ![alt text](screenshots/form.png "form")\
     The meeting can be *successfully* created if and only if the time slot for that day and time is free. And also field "Name oif the event" and "Participants" should be filled. Otherwise the error bar will be shown.
