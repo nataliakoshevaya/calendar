@@ -9,8 +9,8 @@ const selectInput = document.querySelector('.members_block'),
     membersBlock = document.querySelector('#checkbox'),
     membersTitle = document.querySelector('.members__title'),
     membersWrapper = document.querySelector('.members'),
-    id = document.querySelector('#checkbox');
-const input = document.querySelectorAll('.memb__input');
+    id = document.querySelector('#checkbox'),
+    input = document.querySelectorAll('.memb__input');
 
 document.addEventListener('click', (e) => {
     let target = e.target;
@@ -64,10 +64,10 @@ const day = document.querySelector('#day'),
     errorBlock = document.querySelector('.error'),
     errorBtn = document.querySelector('.error__btn'),
     closeBtn = document.querySelector('#btn-close'),
-    createBtn = document.querySelector('#btn-create');
+    createBtn = document.querySelector('#btn-create'),
+    inputEv = document.querySelector('.form__input'),
+    error = document.querySelector('.error__title');
 
-
-console.log(closeBtn)
     
 function errorMessage() {
     errorBlock.classList.remove('hide');
@@ -95,13 +95,15 @@ form.addEventListener('click', (e) => {
             'users': [...users],
             'time': `${time.value}`
         })
+
+        
         
         let keys = Object.keys(localStorage);
+    
         if(keys.indexOf(`${day.value}${time.value}`) != -1) {
             errorMessage();
-            setTimeout(hideError, 2000)
+            setTimeout(hideError, 2000);
         } else {
-            
             document.location.href = 'calendar.html';
             localStorage.setItem(`${day.value}${time.value}`, data)
         }
