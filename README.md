@@ -8,3 +8,7 @@ On this screen u can:
  *Add new meetings;
  *Delete meetings;
  *Change meeting day/time using drag and drop;
+ 
+ + Проводник
++ Полупроводник
++ Диэлектрик
