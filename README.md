@@ -17,7 +17,7 @@ Calendar consists of a pre-defined table with 5 days (Mon-Fri) for columns and 9
     ![alt text](screenshots/error.png "fill this field")\
     ![alt text](screenshots/error2.png "timeslot is already booked")\
     After successful creation of an event, the user should be transferred back to the “Calendar” screen where new event should already be displayed. 
- + Delete meetings\ 
+ + Delete meetings\
    User can delete meeting by clicking on button "x" in the filed with event.\
    ![alt text](screenshots/delete-event.png "window with delete event")
  + Change meeting day/time using drag and drop\
