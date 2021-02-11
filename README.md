@@ -5,7 +5,7 @@ Calendar consists of a pre-defined table with 5 days (Mon-Fri) for columns and 9
 
 ![alt text](screenshots/calendar.png "Calendar")
 
-**The programme allows to:** \
+**The programme allows to:** 
  + Filter meetings for a particular team member. Button above the table\
   ![alt text](screenshots/filter.png "filter") 
 
@@ -21,7 +21,7 @@ Calendar consists of a pre-defined table with 5 days (Mon-Fri) for columns and 9
    User can delete meeting by clicking on button "x" in the filed with event. \
    ![alt text](screenshots/delete-event.png "window with delete event")
  + Change meeting day/time using drag and drop \
-   ![alt text](screenshots/drug-ndrop.png "window with delete event") => ![alt text](screenshots/drug-ndrop2.png "window with delete event") => ![alt text](screenshots/drug-ndrop3.png "window with delete event")
+   ![alt text](screenshots/drag-ndrop.png "drag n drop") => ![alt text](screenshots/drag-ndrop2.png "drag n drop") => ![alt text](screenshots/drag-ndrop3.png "drag n drop")
  
 
  
