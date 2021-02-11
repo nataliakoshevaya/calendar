@@ -9,7 +9,6 @@ Calendar consists of a pre-defined table with 5 days (Mon-Fri) for columns and 9
  + Filter meetings for a particular team member. Button above the table\
   ![alt text](screenshots/filter.png "filter") 
 
-<<<<<<< HEAD
  + Add new meetings by clicking button "Add new event+" \
  ![alt text](screenshots/addbutton.png "btn add new event") \
     This button transfer to the "Form" screen\
@@ -18,14 +17,12 @@ Calendar consists of a pre-defined table with 5 days (Mon-Fri) for columns and 9
     ![alt text](screenshots/error.png "fill this field") \
     ![alt text](screenshots/error2.png "timeslot is already booked") \
     After successful creation of an event, the user should be transferred back to the “Calendar” screen where new event should already be displayed. 
- + Delete meetings;
- + Change meeting day/time using drag and drop;
+ + Delete meetings. \ 
+   User can delete meeting by clicking on button "x" in the filed with event. \
+   ![alt text](screenshots/delete-event.png "window with delete event")
+ + Change meeting day/time using drag and drop \
+   ![alt text](screenshots/drug-ndrop.png "window with delete event") => ![alt text](screenshots/drug-ndrop2.png "window with delete event") => ![alt text](screenshots/drug-ndrop3.png "window with delete event")
+ 
 
-=======
- + Create new event by clicking on the button "add new event+" 
- 
- + Delete meetings;
- + Change meeting day/time using drag and drop;
  
  
->>>>>>> 364b395a6cf9dcfa0f79b93caca10959e4e24fdb
