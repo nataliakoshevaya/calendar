@@ -1,11 +1,11 @@
-@import './base';
+@import './color';
 
 #form {
     font-size: 25px;
     margin: 50px auto;
     width: 750px;
     height: auto;
-    color: $aqua;
+    color: $lightblue;
 }
 
 ul {
@@ -56,7 +56,7 @@ li {
     flex-direction: column;
     position: absolute;
     z-index: 2;
-    background-color: $aqua;
+    background-color: $lightblue;
     width: 200px;
     margin-top: 5px;
     left: 0;
@@ -74,7 +74,7 @@ li {
          padding-top: 8px;
          &:hover {
              background-color: $darkblue;
-             color: $aqua;
+             color: $lightblue;
          }
      }
 }
@@ -83,7 +83,7 @@ li {
 .error {
     background-color: #ff7373;
     padding: 20px 30px;
-    color: #A60000;
+    color: #a60000;
     font-size: 20px; 
     display: flex;
     justify-content: space-between;
@@ -101,8 +101,7 @@ li {
 .form__input {
     height: 35px;
     width: 200px;
-    // margin-right: 100px;
-    background-color: $aqua;
+    background-color: $lightblue;
     color: $darkblue;
     outline: none; 
     font-size: 20px;
@@ -111,7 +110,7 @@ li {
 }
 
 #event {
-    margin-left: -7px;
+    padding-left: 10px;
     &:hover {
         border: 1px solid $darkblue;
     }

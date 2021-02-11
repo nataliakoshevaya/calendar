@@ -1,3 +1,5 @@
+@import './color.scss';
+
 .modal {
     display: none;
     position: fixed;
@@ -12,17 +14,17 @@
     &__title {
         text-align: center;
         font-size: 25px;
-        color: #16405B;
+        color: $darkblue;
     }
     &__btn {
         width: 200px;
         height: 50px;
-        color:#E4F1FE;
-        background-color: #16405B;
+        color: $lightblue;
+        background-color: $darkblue;
     }
     &__btn:hover {
-        background-color:#E4F1FE;
-        color: #16405B;
+        background-color: $lightblue;
+        color: $darkblue;
     }
 }
 
@@ -32,8 +34,6 @@
 }
 
 .modal__content {
-    // display: flex;
-    // justify-content: center;
     position: relative;
     width: 100%;
     padding: 40px;
@@ -42,7 +42,7 @@
     border-radius: 4px;
     max-height: 80vh;
     overflow-y: auto;
-    border: 2px solid #16405B;
+    border: 2px solid $darkblue;
 }
 
 .buttons {

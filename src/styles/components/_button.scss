@@ -1,0 +1,23 @@
+@import './color.scss';
+
+.btn {
+    cursor: pointer;
+    color: $darkblue;
+    background-color: $lightblue;
+    border: none;
+    border-radius: 4px;
+    &:hover {
+        background-color: $darkblue;
+        color:$lightblue;
+        transition: all 1s;
+    }
+}
+
+.close-btn {
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.inner__btn {
+    display: flex;
+}

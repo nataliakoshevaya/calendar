@@ -19,7 +19,7 @@ const closeBtns = document.querySelectorAll('.close-btn');
 
 closeBtns.forEach(btn => {
   btn.addEventListener('click', (e) => {
-
+    console.log(btn)
     if (e.target || e.target.classList.contains('close-btn')) {
       const parent = e.target.parentNode;
       openModal('.modal');
@@ -27,9 +27,6 @@ closeBtns.forEach(btn => {
     }
   })
 })
-
-
-
 
 createEventCard();
 
