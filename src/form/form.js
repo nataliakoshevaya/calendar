@@ -72,14 +72,13 @@ const day = document.querySelector('#day'),
 function errorMessage() {
     errorBlock.classList.remove('hide');
     errorBtn.addEventListener('click', () => {
-            errorBlock.classList.add('hide')
+          hideErrorMessage();
     })
 }
 
-function hideError() {
+function hideErrorMessage() {
     errorBlock.classList.add('hide')
 }
-
 
 form.addEventListener('click', (e) => {
     let target = e.target;
@@ -102,8 +101,17 @@ form.addEventListener('click', (e) => {
     
         if(keys.indexOf(`${day.value}${time.value}`) != -1) {
             errorMessage();
-            setTimeout(hideError, 2000);
-        } else {
+            setTimeout(hideErrorMessage, 5000);
+        } else if(inputEv.value === '') {
+            error.textContent = 'Fill this field!'
+            errorMessage();
+            setTimeout(hideErrorMessage, 5000);
+        } else if(users.length === 0) {
+            error.textContent = 'Select the participants!'
+            errorMessage();
+            setTimeout(hideErrorMessage, 5000);
+        }
+        else {
             document.location.href = 'calendar.html';
             localStorage.setItem(`${day.value}${time.value}`, data)
         }
