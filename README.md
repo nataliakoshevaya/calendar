@@ -6,7 +6,7 @@ Calendar consists of a pre-defined table with 5 days (Mon-Fri) for columns and 9
 ![alt text](screenshots/calendar.png "Calendar")
 
 **The programme allows to:**
- + Filter meetings for a particular team member. Button above the table
+ Filter meetings for a particular team member. Button above the table
 ![alt text](screenshots/filter.png "filter")
 
  + Add new meetings;
