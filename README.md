@@ -23,6 +23,12 @@ Calendar consists of a pre-defined table with 5 days (Mon-Fri) for columns and 9
    ![alt text](screenshots/delete-event.png "window with delete event")
  + **Change meeting day/time using drag and drop**\
    ![alt text](screenshots/drag-ndrop.png "drag n drop")![alt text](screenshots/drag-ndrop2.png "drag n drop") ![alt text](screenshots/drag-ndrop3.png "drag n drop")
+   
+   ## Technologies
+   +Pure JavaScript(ES6) with Babel transpiler
+   +SCSS
+   +Webpack as a module bundler;
+
  
 
  
