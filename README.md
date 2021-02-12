@@ -10,7 +10,8 @@ Calendar consists of a pre-defined table with 5 days (Mon-Fri) for columns and 9
   Button above the table
   ![alt text](screenshots/filter.png "filter") 
   
-  ### Add new meetings by clicking button "Add new event+"
+  ### Add new meetings 
+  by clicking button "Add new event+"
     ![alt text](screenshots/addbutton.png "add button")
     This button transfer to the *"Form" screen*\
     ![alt text](screenshots/form.png "form")\
