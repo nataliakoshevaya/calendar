@@ -1,9 +1,6 @@
 import '../styles/main.scss';
-import createTable from './scripts/create-table'
-import {
-  openModal
-} from './scripts/modal';
-import Modal from './scripts/modal';
+import createTable from './scripts/create-table';
+import { openModal, Modal } from './scripts/modal';
 import dragNDrop from './scripts/drag-n-drop';
 import createEventCard from './scripts/craete-event';
 import filterUsers from './scripts/filter';
@@ -16,26 +13,23 @@ createTable(table, day, time);
 
 const closeBtns = document.querySelectorAll('.close-btn');
 
-
-closeBtns.forEach(btn => {
+closeBtns.forEach((btn) => {
   btn.addEventListener('click', (e) => {
-    console.log(btn)
     if (e.target || e.target.classList.contains('close-btn')) {
       const parent = e.target.parentNode;
       openModal('.modal');
       Modal(parent, '.btn--yes', '.btn--no', '.modal');
     }
-  })
-})
+  });
+});
 
 createEventCard();
-
 
 const addEvBtn = document.querySelector('.header__btn');
 
 addEvBtn.addEventListener('click', () => {
   document.location.href = 'form.html';
-})
+});
 
 filterUsers('.active', '#filter');
 
