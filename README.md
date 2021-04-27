@@ -27,7 +27,7 @@ Calendar consists of a pre-defined table with 5 days (Mon-Fri) for columns and 9
    ![alt text](screenshots/drag-ndrop.png "drag n drop")![alt text](screenshots/drag-ndrop2.png "drag n drop") ![alt text](screenshots/drag-ndrop3.png "drag n drop")
    
    ## Technologies
-   + Pure JavaScript(ES6+) with Babel transpiler
+   + Pure JavaScript with Babel transpiler
    + SCSS
    + Webpack as a module bundler;
 
